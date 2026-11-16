@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>AndroidADBTool 更新</title><language>zh-CN</language><item><title>AndroidADBTool 1.0.10</title><pubDate>Mon, 16 Nov 2026 12:09:59 GMT</pubDate><sparkle:version>20261116200845</sparkle:version><sparkle:shortVersionString>1.0.10</sparkle:shortVersionString><sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion><description>应用内更新验证版本 1.0.10。
-从 1.0.9 点击“设置 → 应用更新 → 检查更新”，下载后点击“安装并重新启动”。
-本版不增加业务功能，用于验证签名下载、应用替换和重启后的版本号。
-保留现有应用管理、图标兼容读取和更新设置。
-更新后“应用更新”卡片应显示 v1.0.10。
-</description><enclosure url="https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.10/AndroidADBTool-1.0.10-20261116200845-AppleSilicon.zip" length="31597983" type="application/octet-stream" sparkle:edSignature="Q0rczllJLbSvbpEf7+A6/VRTLEUlVuPrL+BVMdcyahlYuSkTjjY8R+MXHzCj2sINp8oJ9vMMVdK3ngWHYrfiAQ=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: ay/vaRegK1z+dTTEaYSXJvrRznAufzd9y/CtHeipH2YWO90nveoA/2yYWQ/wya97wUaG8FcKDjrTuELOKheTDA==
-length: 1459
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>AndroidADBTool 更新</title><language>zh-CN</language><item><title>AndroidADBTool 1.0.11</title><pubDate>Mon, 16 Nov 2026 12:29:14 GMT</pubDate><sparkle:version>20261116202551</sparkle:version><sparkle:shortVersionString>1.0.11</sparkle:shortVersionString><sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion><description>新增首次自动安装：从 DMG、下载目录或 macOS 临时位置打开时，确认后自动复制到“应用程序”，验证签名并重新打开。
+已有同名应用时先确认替换；目标应用正在运行时提示先退出。无系统目录写入权限时安装到当前用户的 Applications。
+设置页增加“移至应用程序并打开”入口，暂不安装后可随时重试。
+保留应用设置和数据；后续版本继续通过应用内更新下载、安装并重新启动。
+</description><enclosure url="https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.11/AndroidADBTool-1.0.11-20261116202551-AppleSilicon.zip" length="31610651" type="application/octet-stream" sparkle:edSignature="ESBUeK6NJwn/melwieU7HoyGawiXhhvdaQ5KVXXElkB8wGEey+tW5/85rqJnCi2ql9XPfHzEHylOg+8u2nIdAQ=="></enclosure></item></channel></rss><!-- sparkle-signatures:
+edSignature: ouS7VMXpiG0f44ln2Ohou5pt82QreG0MDvJxQTPHAgCR7vMdysgHHrChTZkElz5WO6UwfCOrX1Q3zTs75OgdBw==
+length: 1603
 -->
