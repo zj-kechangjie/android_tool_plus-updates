@@ -6,7 +6,9 @@
 
 ## 使用说明
 
-[打开图文使用说明](docs/usage.md)：按功能查看截图与操作步骤。
+[打开下载与使用网站](https://zj-kechangjie.github.io/android_tool_plus-updates/)：下载安装、图文使用说明与版本记录。
+
+[GitHub 图文文档](docs/usage.md) 也可直接查看。
 
 ## 安装与更新
 

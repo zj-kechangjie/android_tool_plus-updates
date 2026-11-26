@@ -1,0 +1,218 @@
+{
+  "releases": [
+    {
+      "version": "1.0.21",
+      "title": "AndroidADBTool 1.0.21 · 离线说明与 Windows 测试版",
+      "published": "2026-11-26T07:50:17Z",
+      "notes": "1. 新增 Windows x64 测试版，内置 ADB，支持独立窗口投屏与无音频录屏；部分 Mac 原生功能仍在适配。\n\n2. 设置 → 应用更新新增“下载与使用说明”，点击后用默认浏览器打开当前电脑上的内置页面，无需配置地址或依赖其他电脑。\n\n3. 安装说明、图文使用说明及版本记录随工具打包，可离线浏览；下载安装包时才需要联网。\n\n4. 下载与使用页面沿用统一样式，通过顶部标签切换下载安装、使用说明和版本记录。\n\n5. 本版基于主线功能，不包含多语言走查实验功能。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.21",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.21-20261126154211-AppleSilicon.dmg",
+          "size": 62359981,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.21/AndroidADBTool-1.0.21-20261126154211-AppleSilicon.dmg",
+          "platform": "macos"
+        },
+        {
+          "name": "AndroidADBTool-1.0.21-Windows-x64-Preview.zip",
+          "size": 32057091,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.21/AndroidADBTool-1.0.21-Windows-x64-Preview.zip",
+          "platform": "windows"
+        }
+      ]
+    },
+    {
+      "version": "1.0.20",
+      "title": "AndroidADBTool 1.0.20 · 截图提示与录屏修复",
+      "published": "2026-11-25T10:34:19Z",
+      "notes": "1. 截图保存成功后会提示保存路径，几秒后自动消失。\n\n2. 打开工具时，如果上次选中的手机不在线，会自动选中当前已连接的手机。\n\n3. 录屏时手机旋转或画面尺寸变化不再中断，画面保持在原来的画布里。\n\n4. 极简模式不再显示埋点调试开关；应用相关第一项改为「打开应用」。\n\n5. 日志页增加 gallery1、gallery2 包名快捷选择，采集中不能切换应用；双击可以选中完整日志字段。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.20",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.20-20261125182328-AppleSilicon.dmg",
+          "size": 60246230,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.20/AndroidADBTool-1.0.20-20261125182328-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.19",
+      "title": "AndroidADBTool 1.0.19 · 极简模式",
+      "published": "2026-11-24T10:33:20Z",
+      "notes": "1. 新增极简模式，默认开启。侧栏隐藏项目问答、布局检查、设计稿对比；快捷功能隐藏系统相关、按键相关、屏幕输入。常用功能里的录屏和进系统设置仍保留，可在侧栏或设置里关闭。\n\n2. 弱网模拟增加快捷档位：128kbps、256kbps、1Mbps、5Mbps、15Mbps。\n\n3. 截图预览放大、缩小和回到 100% 时，图片停在原来的位置，不再放大到看不见。\n\n4. 文件管理可以浏览应用私有目录，以及外部 Android/data 下的应用目录。\n\n5. 功能页把常用操作收进设备概况；文件管理按 Mac 习惯选中和快捷键，截图可以复制图片。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.19",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.19-20261124182558-AppleSilicon.dmg",
+          "size": 59475131,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.19/AndroidADBTool-1.0.19-20261124182558-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.18",
+      "title": "AndroidADBTool 1.0.18 · 科学上网与找手机",
+      "published": "2026-11-23T12:10:55Z",
+      "notes": "1. 测试环境新增科学上网：点网站链接或粘贴订阅后选择国家，手机流量经 USB 转到本机线路；已经开着时可以直接换国家。\n\n2. 手机浏览器打不开核对页时不算连上，会写明还不能确认国家；状态栏图标只表示转发开着。\n\n3. 新增找手机，可按类型、品牌、系统、状态和型号查找测试机，并看到现在插在哪台电脑。\n\n4. 常用功能增加布局边界、进系统设置和进开发者模式；应用相关增加埋点调试、进应用设置和所有文件访问。\n\n5. 系统相关改为设备概况，可复制品牌型号、系统版本、分辨率等信息；文件管理支持 SD 卡。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.18",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.18-20261123195648-AppleSilicon.dmg",
+          "size": 59430677,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.18/AndroidADBTool-1.0.18-20261123195648-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.17",
+      "title": "AndroidADBTool 1.0.17 · 问答项目自助配置",
+      "published": "2026-11-19T02:01:37Z",
+      "notes": "1. 新增问答项目管理，粘贴链接即可自动识别项目名称并生成入口，后续添加服务无需改代码或重新安装。\n\n2. 支持编辑项目名称和服务地址、调整排序、移除入口，配置保存在本机，最多管理 20 个项目。\n\n3. 预设加入 Hider2、Gallery2 和 XGallery，保留原有 AppLock 入口和自定义地址。\n\n4. 切换项目时保留各自网页会话，并记住上次选择；移除入口不删除服务中的对话记录。\n\n5. 完善离线服务保存、重复链接拦截和配置校验，取消操作不会保存草稿。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.17",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.17-20261119095720-AppleSilicon.dmg",
+          "size": 36094213,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.17/AndroidADBTool-1.0.17-20261119095720-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.16",
+      "title": "AndroidADBTool 1.0.16 · 内嵌项目问答与增量更新",
+      "published": "2026-11-18T03:34:46Z",
+      "notes": "1. 新增内嵌项目问答，可在工具内直接提问、选择项目版本并添加日志或截图。\n\n2. 接入团队问答服务，测试人员无需准备源码、安装 Codex 或配置模型账号。\n\n3. 优化问答会话保留、页面切换、刷新、复制粘贴与服务地址配置。\n\n4. 新增增量自动更新，匹配旧构建时优先下载差分包。\n\n5. 增量下载、校验或应用失败时自动回退完整包，完整包继续验证签名。\n\n6. 发布流程增加差分还原校验，支持最近三个正式构建的增量升级。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.16",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.16-20261118112639-AppleSilicon.dmg",
+          "size": 36058895,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.16/AndroidADBTool-1.0.16-20261118112639-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.15",
+      "title": "AndroidADBTool 1.0.15 · 局域网发现与传输优化",
+      "published": "2026-11-17T05:01:33Z",
+      "notes": "1. 优化附近电脑发现：加入单播应答和 TCP 回告，改善一边能看到、另一边看不到的情况；支持手动刷新、显示直连确认状态和延迟。\n\n2. 修复多网卡广播逻辑：优先物理网卡，不再因设备地址变化触发连锁广播，减少额外的网络和界面负担。\n\n3. 优化工具之间上传：新版双方支持连续数据流，减少每传 4 MB 等待响应的开销，仍支持中断续传，并兼容 1.0.14 的分块发送方式。\n\n4. 新增双向直连测速：连接对方后传输约 32 MB 测试数据，不写入磁盘，显示发送和接收吞吐、平均及最高延迟，帮助定位网络瓶颈。\n\n5. 修复传输完成状态：未传满的下载中断不会标为完成；发送端显示“已发送”时，最终接收以对方校验结果为准。\n\n6. 建议双方升级到 1.0.15 后连接并运行“直连测速”。实际速度取决于 Wi-Fi / 有线网络、路由器和硬盘，本版不承诺固定速率。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.15",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.15-20261117120214-AppleSilicon.dmg",
+          "size": 36089685,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.15/AndroidADBTool-1.0.15-20261117120214-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.14",
+      "title": "AndroidADBTool 1.0.14 · 局域网快传",
+      "published": "2026-11-17T03:28:24Z",
+      "notes": "1. 新增局域网快传：电脑之间直接发送和接收文件，无需连接手机，不经过互联网或云端中转。\n\n2. 新增浏览器互传：复制分享链接后，对方无需安装工具即可下载，也可上传文件和文件夹；接收前由本机确认。\n\n3. 新增附近电脑：双方开启快传后自动发现，可输入口令点选发送；也支持手动输入局域网 IPv4 地址连接。\n\n4. 支持拖拽文件和文件夹：工具端使用 macOS ZIP64 打包并跳过符号链接，网页上传保留目录结构，同批文件夹确认一次。\n\n5. 完善传输管理：显示进度、速度和预计剩余时间，支持暂停、取消、重试和分块 / Range 续传，完成后验证 SHA-256。\n\n6. 支持更改接收位置、本地传输记录、查看已接收文件和清理未完成文件；同名文件使用独立后缀，保留已有文件。\n\n7. 分享链接和临时口令有效期为 2 小时，一键停止立即关闭分享。当前采用未加密 HTTP 直连，请在可信局域网使用；连接和速度受路由器、网络隔离、防火墙及硬盘影响。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.14",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.14-20261117111325-AppleSilicon.dmg",
+          "size": 36082050,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.14/AndroidADBTool-1.0.14-20261117111325-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.13",
+      "title": "AndroidADBTool 1.0.13 · 更新提醒测试",
+      "published": "2026-11-16T12:54:44Z",
+      "notes": "1. 新版提醒验收：本版用于从 1.0.12 测试发现新版后的提醒展示；请开启“设置 → 应用更新 → 自动检查新版本”，重新启动工具可触发启动检查。\n\n2. 编号说明验收：更新弹窗与版本记录应按 1、2、3……分项展示，条目之间留有间隔。\n\n3. 版本记录验收：更新前可在“版本记录”展开 v1.0.13，查看本次说明与完整更新包大小。\n\n4. 安装流程验收：确认下载后点击“安装并重新启动”，重启后应用更新卡片应显示 v1.0.13。\n\n5. 本次为更新流程测试版，现有业务功能保持不变；设置和数据保留，安装前请结束录屏、导出及文件传输。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.13",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.13-20261116205153-AppleSilicon.dmg",
+          "size": 36071840,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.13/AndroidADBTool-1.0.13-20261116205153-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.12",
+      "title": "AndroidADBTool 1.0.12",
+      "published": "2026-11-16T12:48:58Z",
+      "notes": "1. 新增版本记录：在“设置 → 应用更新 → 版本记录”查看各版本更新内容、发布日期和完整更新包大小，支持展开详情与加载更早版本。\n\n2. 新增新版提醒：默认启动时检查，运行期间约每小时检查一次；发现新版显示更新说明和下载入口，由你确认下载安装。保留此前手动关闭自动检查的选择。\n\n3. 优化更新说明：各项内容自动按序号分行显示，统一已有编号和圆点，增加条目间距；版本记录和更新弹窗更易阅读。\n\n4. 完善发布校验：每个版本必须填写更新说明，自动生成带序号的发布说明。\n\n5. 更新方式仍为完整应用包替换，保留设置和数据；安装前请先结束录屏、导出及文件传输。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.12",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.12-20261116204247-AppleSilicon.dmg",
+          "size": 36071850,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.12/AndroidADBTool-1.0.12-20261116204247-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.11",
+      "title": "AndroidADBTool 1.0.11",
+      "published": "2026-11-16T12:30:32Z",
+      "notes": "新增首次自动安装：从 DMG、下载目录或 macOS 临时位置打开时，确认后自动复制到“应用程序”，验证签名并重新打开。\n已有同名应用时先确认替换；目标应用正在运行时提示先退出。无系统目录写入权限时安装到当前用户的 Applications。\n设置页增加“移至应用程序并打开”入口，暂不安装后可随时重试。\n保留应用设置和数据；后续版本继续通过应用内更新下载、安装并重新启动。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.11",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.11-20261116202551-AppleSilicon.dmg",
+          "size": 36043352,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.11/AndroidADBTool-1.0.11-20261116202551-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.10",
+      "title": "AndroidADBTool 1.0.10 · 应用内更新验证版",
+      "published": "2026-11-16T12:11:23Z",
+      "notes": "应用内更新验证版本 1.0.10。\n从 1.0.9 点击“设置 → 应用更新 → 检查更新”，下载后点击“安装并重新启动”。\n本版不增加业务功能，用于验证签名下载、应用替换和重启后的版本号。\n保留现有应用管理、图标兼容读取和更新设置。\n更新后“应用更新”卡片应显示 v1.0.10。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.10",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.10-20261116200845-AppleSilicon.dmg",
+          "size": 35742939,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.10/AndroidADBTool-1.0.10-20261116200845-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    },
+    {
+      "version": "1.0.9",
+      "title": "AndroidADBTool 1.0.9 · 支持应用内更新",
+      "published": "2026-11-16T11:59:52Z",
+      "notes": "新增应用内更新：在“设置 → 应用更新”检查、下载并安装新版，完成后自动重启。\n支持自动检查提醒；安装仍由使用者决定。\n更新包及更新索引均进行 Ed25519 签名验证，更新签名私钥不会随应用或更新仓库发布。\n同时包含应用管理的图标兼容读取、设备切换和安装后刷新修复。\n适用于 Apple 芯片 Mac，最低构建目标 macOS 11。\n旧版 1.0.8 需手动安装本版一次，之后可使用应用内更新。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.9",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.9-20261116195409-AppleSilicon.dmg",
+          "size": 35919211,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.9/AndroidADBTool-1.0.9-20261116195409-AppleSilicon.dmg",
+          "platform": "macos"
+        }
+      ]
+    }
+  ]
+}
