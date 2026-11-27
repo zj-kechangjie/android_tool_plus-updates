@@ -1,6 +1,28 @@
 {
   "releases": [
     {
+      "version": "1.0.22",
+      "title": "AndroidADBTool 1.0.22 · 扫码连接与截图录屏优化",
+      "published": "2026-11-27T06:57:01Z",
+      "notes": "1. 无线连接新增扫码配对入口，自动发现并连接手机，保留配对码与手动连接。二维码实机扫码兼容性仍待进一步验证。\n\n2. 重新整理截图编辑界面：按截图、调整、历史分组，缩放移至画布底部，默认线宽改为 3px，支持窗口内重新截图。\n\n3. 复制图片和文字后新增成功提示；减少短操作引起的整排按钮闪烁和画布跳动，仍保留重复操作保护。\n\n4. Mac 录屏新增自动兼容与电脑画面兜底：前两条链路失败时自动使用投屏帧保存无声 MOV，中途切换保留前段文件；兜底最高 1280 像素长边、15fps，文件通常较大。\n\n5. 问题复现和录屏回放跟随实际生成的 MP4/MOV 文件，避免自动兜底后仍打开旧路径。\n\n6. 下载与使用说明改为 GitHub Pages 固定网站，集中提供安装包、使用说明和版本记录。Windows x64 继续作为测试版提供，部分 Mac 原生功能仍未适配。\n",
+      "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/tag/v1.0.22",
+      "files": [],
+      "assets": [
+        {
+          "name": "AndroidADBTool-1.0.22-20261127144551-AppleSilicon.dmg",
+          "size": 62315100,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.22/AndroidADBTool-1.0.22-20261127144551-AppleSilicon.dmg",
+          "platform": "macos"
+        },
+        {
+          "name": "AndroidADBTool-1.0.22-Windows-x64-Preview.zip",
+          "size": 32113150,
+          "url": "https://github.com/zj-kechangjie/android_tool_plus-updates/releases/download/v1.0.22/AndroidADBTool-1.0.22-Windows-x64-Preview.zip",
+          "platform": "windows"
+        }
+      ]
+    },
+    {
       "version": "1.0.21",
       "title": "AndroidADBTool 1.0.21 · 离线说明与 Windows 测试版",
       "published": "2026-11-26T07:50:17Z",

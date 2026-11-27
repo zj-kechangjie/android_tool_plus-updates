@@ -1,8 +1,8 @@
-# AndroidADBTool · macOS 更新通道
+# AndroidADBTool · 下载与更新
 
 这里发布 AndroidADBTool 安装包、图文使用说明、更新说明和签名更新索引。源码在独立私密仓库维护，不在本仓库公开。
 
-适用于 Apple 芯片 Mac（M 系列），最低构建目标 macOS 11。
+Mac 安装包适用于 Apple 芯片（M 系列），最低构建目标 macOS 11。另提供 Windows x64 测试版完整 ZIP，需全部解压后运行；部分 Mac 原生能力仍未适配。
 
 ## 使用说明
 
